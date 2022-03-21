@@ -45,7 +45,7 @@ let baby = 0
 let boden = 0
 boden = 3
 basic.forever(function () {
-    if (0 < 0) {
+    if (boden <= 0) {
         while (true) {
             basic.showIcon(IconNames.Sad)
         }
